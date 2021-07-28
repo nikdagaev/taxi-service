@@ -19,14 +19,16 @@ public class CarServiceImpl implements CarService {
     @Override
     public void addDriverToCar(Driver driver, Car car) {
         car.getDrivers().add(driver);
-        logger.info("Driver {} was successfully added to car {}", driver.toString(), car.toString());
+        logger.info("Driver {} was successfully added to car {}",
+                driver.toString(), car.toString());
         carDao.update(car);
     }
 
     @Override
     public void removeDriverFromCar(Driver driver, Car car) {
         car.getDrivers().remove(driver);
-        logger.info("Driver {} was successfully removed from car {}", driver.toString(), car.toString());
+        logger.info("Driver {} was successfully removed from car {}",
+                driver.toString(), car.toString());
         carDao.update(car);
     }
 
