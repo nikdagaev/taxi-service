@@ -7,10 +7,10 @@ import java.util.Properties;
 
 public class ConnectionUtil {
     private static final String URL =
-            "jdbc:mysql://localhost:3306/taxi";
+            "INSERT YOUR DB URL";
     private static final String USERNAME = "INSERT YOUR DB USERNAME";
     private static final String PASSWORD = "INSERT YOUR DB PASSWORD";
-    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    private static final String JDBC_DRIVER = "INSERT YOUR DB DRIVER";
 
     static {
         try {
