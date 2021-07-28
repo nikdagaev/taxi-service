@@ -3,7 +3,7 @@
 <img src="https://lubimoetaxi.com.ua/wp-content/uploads/2019/02/lyubimoe-taksi-kharkov-kropivnitskiy-kamenskoe-zaporozhye-img-001.png" alt="">
 <hr>
 
-##What is the purpose of this project?
+## What is the purpose of this project?
 The main purpose of this project is to implement a Simple Taxi Service (STS).
 
 This simple app allows you to manage your taxi fleet by using its functionality, which includes the following:
