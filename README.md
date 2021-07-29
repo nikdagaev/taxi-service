@@ -26,7 +26,8 @@ This app implements an N-tier architecture, drivers are also able to authenticat
    **YOUR DB PASSWORD:** MySQL password <br>
    **YOUR JDBC DRIVER:** _com.mysql.cj.jdbc.Driver_ or any other suitable driver <br>
 4. Configure TomCat Local server (_Add New Configuration_ -> _TomCat Server_ -> _Local_ -> _Fix_ -> _taxi-service:war exploded_ -> set _Application context_ to "/" -> _OK_).
-5. Run your project.
+5. To enable logging, configure the _log4j2.xml_ file by adding the absolute path to your .log file. (_filename="<b>absolute_path</b>/taxi.log_)
+6. Run your project.
 <hr>
 
 ## Technologies used
@@ -39,5 +40,5 @@ This app implements an N-tier architecture, drivers are also able to authenticat
 - HTML, CSS
 - Logger (Log4j2)
 - Maven
-- Custom injector
+
   <hr>

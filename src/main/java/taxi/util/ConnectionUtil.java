@@ -23,7 +23,6 @@ public class ConnectionUtil {
             throw new RuntimeException("Can't find an SQL Driver", e);
         }
         logger.info("SQL Driver {} was found", JDBC_DRIVER);
-
     }
 
     public static Connection getConnection() {
