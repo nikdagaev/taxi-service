@@ -2,7 +2,7 @@
 -- Creating a new DB --
 -- ----------------- --
 
-CREATE DATABASE `taxi` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE `taxi`;
 
 -- --------------------- --
 -- Entering a created DB --

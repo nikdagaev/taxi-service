@@ -9,10 +9,10 @@ import org.apache.logging.log4j.Logger;
 
 public class ConnectionUtil {
     private static final String URL =
-            "jdbc:mysql://localhost:3306/taxi?useUnicode=true&serverTimezone=UTC";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "nikita199";
-    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+            "YOUR DB URL";
+    private static final String USERNAME = "YOUR DB USERNAME";
+    private static final String PASSWORD = "YOUR DB PASSWORD";
+    private static final String JDBC_DRIVER = "YOUR JDBC DRIVER";
     private static final Logger logger = LogManager.getLogger(ConnectionUtil.class);
 
     static {
@@ -23,7 +23,6 @@ public class ConnectionUtil {
             throw new RuntimeException("Can't find an SQL Driver", e);
         }
         logger.info("SQL Driver {} was found", JDBC_DRIVER);
-
     }
 
     public static Connection getConnection() {
